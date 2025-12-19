@@ -94,30 +94,6 @@ Traditional multi-site networks suffer from:
 
 ---
 
-## 🎬 Demo
-
-### Video Walkthrough
-
-[![SD-WAN Demo Video](docs/images/video-thumbnail.png)](docs/videos/demo.mp4)
-
-*Click to watch: Complete demonstration of deployment, connectivity testing, QoS, and failover*
-
-### Quick Demo GIFs
-
-<div align="center">
-
-#### Automatic Deployment
-![Deployment](docs/gifs/deployment.gif)
-
-#### Failover in Action
-![Failover](docs/gifs/failover.gif)
-
-#### QoS Traffic Prioritization
-![QoS](docs/gifs/qos.gif)
-
-</div>
-
----
 
 ## 🏗️ Architecture
 
