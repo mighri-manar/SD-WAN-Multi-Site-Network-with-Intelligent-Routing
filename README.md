@@ -342,7 +342,7 @@ tail -f /tmp/sdwan_events.log
 | `cleanup.sh` | Remove topology and cleanup | `sudo ./cleanup.sh` |
 | `fix_routing.sh` | Fix inter-site routing | `sudo ./fix_routing.sh` |
 | `test_suite.sh` | Run all 9 automated tests | `./test_suite.sh` |
-| `test_failover.sh` | Enhanced failover testing | `./test_failover.sh` |
+| `failover.sh` | Enhanced failover testing | `./test_failover.sh` |
 | `quick_test.sh` | Quick connectivity check | `./quick_test.sh` |
 | `test_qos.sh` | Test traffic prioritization | `./test_qos.sh` |
 | `monitor.sh` | Show network status | `./monitor.sh` |
@@ -756,7 +756,7 @@ sdwan-multisite/
 ├── cleanup.sh                 # Topology removal
 ├── fix_routing.sh             # Inter-site routing fix
 ├── test_suite.sh              # Automated test suite (9 tests)
-├── test_failover.sh           # Enhanced failover tests (5 scenarios)
+├── failover.sh           # Enhanced failover tests (5 scenarios)
 ├── quick_test.sh              # Quick connectivity test
 ├── test_qos.sh                # QoS testing
 ├── monitor.sh                 # Network status monitoring
