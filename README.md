@@ -745,17 +745,11 @@ sdwan-multisite/
 ├── LICENSE                    # MIT License
 └── docs/
     ├── images/                # Screenshots
-    │   ├── banner.png
-    │   ├── controller-running.png
-    │   ├── topology.png
-    │   ├── test-results.png
-    │   └── failover-demo.png
-    ├── videos/                # Demo videos
-    │   └── demo.mp4
-    └── gifs/                  # Animated demonstrations
-        ├── deployment.gif
-        ├── failover.gif
-        └── qos.gif
+       ├── controller-running.png
+       ├── topology.png
+       ├── test-results.png
+       └── failover-demo.png
+
 ```
 
 ---
