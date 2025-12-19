@@ -23,19 +23,15 @@
 
 ### Controller in Action
 ![Controller Running](docs/images/controller-running.png)
-*Real-time monitoring with path quality metrics and anomaly detection*
 
-### Network Topology
-![Network Topology](docs/images/topology.png)
-*HQ + 2 Branch Sites connected via GRE tunnels*
 
-### Automated Testing
-![Test Results](docs/images/test-results.png)
-*Comprehensive automated test suite with 9+ test scenarios*
+### Demo
+![demo](docs/images/demo1.png)
 
-### Failover Demonstration
-![Failover Demo](docs/images/failover-demo.png)
-*Automatic path switching when link degradation is detected*
+![demo](docs/images/demo2.png)
+
+![demo](docs/images/demo3.png)
+
 
 </div>
 
