@@ -812,7 +812,6 @@ This project implements concepts from:
 
 ## 🎓 Learning Outcomes
 
-By working with this project, you will learn:
 
 ### Technical Skills
 - ✅ SDN controller programming with Ryu
