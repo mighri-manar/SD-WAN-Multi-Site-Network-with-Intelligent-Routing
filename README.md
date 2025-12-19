@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![SD-WAN Banner](docs/images/banner.png)
+
 
 **A Software-Defined Wide Area Network implementation with dynamic path selection, QoS, and automatic failover**
 
