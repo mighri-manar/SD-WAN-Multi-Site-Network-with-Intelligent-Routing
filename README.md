@@ -741,10 +741,6 @@ sdwan-multisite/
 ├── LICENSE                    # MIT License
 └── docs/
     ├── images/                # Screenshots
-       ├── controller-running.png
-       ├── topology.png
-       ├── test-results.png
-       └── failover-demo.png
 
 ```
 
