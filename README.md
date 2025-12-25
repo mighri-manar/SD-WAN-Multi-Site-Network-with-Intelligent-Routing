@@ -778,13 +778,13 @@ This project implements concepts from:
 
 ---
 
-
+<div align="center">
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-<div align="center">
+
 
 **⭐ Star this repo if you found it helpful!**
 
