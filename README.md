@@ -613,11 +613,15 @@ Edit `setup.sh` to change network parameters:
 HQ_IP="10.1.1.10/24"
 SITE1_IP="10.2.1.10/24"
 SITE2_IP="10.3.1.10/24"
+SITE3_IP="10.4.1.10/24"
+
 
 # Tunnel endpoints
 HQ_TUNNEL="192.168.100.1/24"
 SITE1_TUNNEL="192.168.100.2/24"
 SITE2_TUNNEL="192.168.100.3/24"
+SITE3_TUNNEL="192.168.100.4/24"
+
 
 # Controller address
 CONTROLLER="tcp:127.0.0.1:6633"
@@ -638,6 +642,8 @@ sudo ip netns list
 sudo ip netns exec hq ip link show
 sudo ip netns exec site1 ip link show
 sudo ip netns exec site2 ip link show
+sudo ip netns exec site3 ip link show
+
 
 # Fix routing
 sudo ./fix_routing.sh
@@ -652,11 +658,15 @@ sudo systemctl status openvswitch
 sudo ovs-vsctl get-controller ovs-hq
 sudo ovs-vsctl get-controller ovs-site1
 sudo ovs-vsctl get-controller ovs-site2
+sudo ovs-vsctl get-controller ovs-site3
+
 
 # Reconnect
 sudo ovs-vsctl set-controller ovs-hq tcp:127.0.0.1:6633
 sudo ovs-vsctl set-controller ovs-site1 tcp:127.0.0.1:6633
 sudo ovs-vsctl set-controller ovs-site2 tcp:127.0.0.1:6633
+sudo ovs-vsctl set-controller ovs-site3 tcp:127.0.0.1:6633
+
 ```
 
 #### Issue: Ryu manager fails to start
@@ -681,6 +691,8 @@ sudo ./fix_routing.sh
 sudo ip netns exec hq ip route
 sudo ip netns exec site1 ip route
 sudo ip netns exec site2 ip route
+sudo ip netns exec site3 ip route
+
 ```
 
 ### Debug Commands
@@ -742,48 +754,8 @@ sdwan-multisite/
 
 ---
 
-## 🤝 Contributing
 
-Contributions are welcome! Here's how you can help:
-
-### Reporting Issues
-
-Found a bug? [Open an issue](https://github.com/YOUR_USERNAME/sdwan-multisite/issues) with:
-- Description of the problem
-- Steps to reproduce
-- Expected vs actual behavior
-- System information (OS, Python version)
-- Relevant logs
-
-### Suggesting Features
-
-Have an idea? [Open a feature request](https://github.com/YOUR_USERNAME/sdwan-multisite/issues) describing:
-- The feature and its use case
-- How it would improve the project
-- Any implementation ideas
-
-### Pull Requests
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Test thoroughly
-5. Commit with clear messages (`git commit -m 'Add amazing feature'`)
-6. Push to your fork (`git push origin feature/amazing-feature`)
-7. Open a Pull Request
-
-### Development Guidelines
-
-- Follow PEP 8 for Python code
-- Add tests for new features
-- Update documentation
-- Keep commits atomic and well-described
-
----
-
-## 📖 Documentation
-
-### Additional Resources
+### Resources
 
 - [OpenFlow 1.3 Specification](https://www.opennetworking.org/wp-content/uploads/2014/10/openflow-spec-v1.3.0.pdf)
 - [Ryu SDN Framework](https://ryu-sdn.org/)
