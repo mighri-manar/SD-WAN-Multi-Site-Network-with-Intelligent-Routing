@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
-"""
-Enhanced SD-WAN Controller with ACTIVE Failover
-Key Addition: Automatic flow reinstallation when paths fail
-"""
+
 
 from ryu.base import app_manager
 from ryu.controller import ofp_event
