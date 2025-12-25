@@ -64,15 +64,15 @@ Traditional multi-site networks suffer from:
 
 ### 🚀 Core Functionality
 
-| Feature | Description | Status |
-|---------|-------------|--------|
-| **Dynamic Routing** | Path selection based on latency (<50ms), packet loss (<5%), and bandwidth | ✅ Implemented |
-| **QoS/Traffic Prioritization** | VoIP (DSCP 46) gets priority 200, critical apps priority 150 | ✅ Implemented |
-| **Automatic Failover** | Detects link degradation and triggers rerouting within 10-30 seconds | ✅ Implemented |
-| **GRE Tunneling** | Automatic tunnel creation for overlay network | ✅ Implemented |
-| **Real-time Monitoring** | Latency, packet loss, bandwidth measurement every 10 seconds | ✅ Implemented |
-| **Anomaly Detection** | Historical analysis to detect unusual network behavior | ✅ Implemented |
-| **Event Logging** | Complete audit trail of all network events | ✅ Implemented |
+| Feature | Description |
+|---------|-------------|
+| **Dynamic Routing** | Path selection based on latency (<50ms), packet loss (<5%), and bandwidth |
+| **QoS/Traffic Prioritization** | VoIP (DSCP 46) gets priority 200, critical apps priority 150 |
+| **Automatic Failover** | Detects link degradation and triggers rerouting within 10-30 seconds |
+| **GRE Tunneling** | Automatic tunnel creation for overlay network | 
+| **Real-time Monitoring** | Latency, packet loss, bandwidth measurement every 10 seconds |
+| **Anomaly Detection** | Historical analysis to detect unusual network behavior |
+| **Event Logging** | Complete audit trail of all network events | 
 
 ### 🎛️ Advanced Features
 
@@ -144,11 +144,14 @@ Traditional multi-site networks suffer from:
 - **HQ LAN**: 10.1.1.0/24
 - **Site1 LAN**: 10.2.1.0/24
 - **Site2 LAN**: 10.3.1.0/24
+- **Site3 LAN**: 10.4.1.0/24
 
 #### Underlay Network (Tunnel Endpoints)
 - **HQ Tunnel IP**: 192.168.100.1/24
 - **Site1 Tunnel IP**: 192.168.100.2/24
 - **Site2 Tunnel IP**: 192.168.100.3/24
+- **Site3 Tunnel IP**: 192.168.100.4/24
+
 
 ---
 
