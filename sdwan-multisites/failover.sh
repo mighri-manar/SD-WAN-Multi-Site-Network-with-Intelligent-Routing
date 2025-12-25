@@ -1,8 +1,5 @@
 #!/bin/bash
-# =============================================================================
-# ENHANCED FAILOVER AND RESILIENCE TEST
-# Tests automatic rerouting when interfaces/links fail
-# =============================================================================
+
 
 COLOR_GREEN='\033[0;32m'
 COLOR_RED='\033[0;31m'
