@@ -1,8 +1,4 @@
 #!/bin/bash
-# =============================================================================
-# ENHANCED SD-WAN SETUP SCRIPT - HQ + 3 SITES
-# Includes: Traffic control, monitoring helpers, demo utilities
-# =============================================================================
 
 set -e
 
