@@ -1,3 +1,0 @@
-#!/bin/bash
-export PYTHONPATH="$HOME/sdwan-demo/ryu-4.34:$PYTHONPATH"
-python3 -m ryu.cmd.manager "$@"
