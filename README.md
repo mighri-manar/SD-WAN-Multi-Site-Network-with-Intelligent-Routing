@@ -155,7 +155,7 @@ Traditional multi-site networks suffer from:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
