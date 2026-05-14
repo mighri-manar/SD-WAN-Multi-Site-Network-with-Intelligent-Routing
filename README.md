@@ -1,4 +1,4 @@
-# 🌐 SD-WAN Multi-Site Network with Intelligent Routing
+#  SD-WAN Multi-Site Network with Intelligent Routing
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <div align="center">
 
@@ -38,31 +38,31 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements a **production-grade SD-WAN (Software-Defined Wide Area Network)** solution that enables intelligent traffic routing across multiple sites. Unlike traditional WANs with rigid routing, our SD-WAN controller dynamically selects the best path based on real-time network conditions.
 
 ### The Problem We Solve
 
 Traditional multi-site networks suffer from:
-- ❌ Static routing that can't adapt to network conditions
-- ❌ No automatic failover when links degrade
-- ❌ Lack of traffic prioritization (VoIP, critical apps)
-- ❌ Manual configuration and maintenance overhead
+-  Static routing that can't adapt to network conditions
+-  No automatic failover when links degrade
+-  Lack of traffic prioritization (VoIP, critical apps)
+-  Manual configuration and maintenance overhead
 
 ### Our Solution
 
-✅ **Dynamic Path Selection** - Routes automatically switch based on latency, packet loss, and bandwidth  
-✅ **Automatic Failover** - Instant rerouting when links fail  
-✅ **Quality of Service (QoS)** - Priority traffic gets preferred treatment  
-✅ **Real-time Monitoring** - Continuous health checks with anomaly detection  
-✅ **Complete Automation** - One-command deployment and testing  
+ **Dynamic Path Selection** - Routes automatically switch based on latency, packet loss, and bandwidth  
+ **Automatic Failover** - Instant rerouting when links fail  
+ **Quality of Service (QoS)** - Priority traffic gets preferred treatment  
+ **Real-time Monitoring** - Continuous health checks with anomaly detection  
+ **Complete Automation** - One-command deployment and testing  
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🚀 Core Functionality
+###  Core Functionality
 
 | Feature | Description |
 |---------|-------------|
@@ -74,7 +74,7 @@ Traditional multi-site networks suffer from:
 | **Anomaly Detection** | Historical analysis to detect unusual network behavior |
 | **Event Logging** | Complete audit trail of all network events | 
 
-### 🎛️ Advanced Features
+###  Advanced Features
 
 - **Path Quality Scoring**: Weighted algorithm (60% latency + 40% packet loss) for optimal path selection
 - **Cooldown Periods**: Prevents route flapping with 30-second failover cooldown
@@ -82,7 +82,7 @@ Traditional multi-site networks suffer from:
 - **Flow Priority Management**: OpenFlow rules installed with traffic-dependent priorities
 - **Comprehensive Statistics**: Flow stats, port stats, bandwidth measurements
 
-### 🧪 Testing & Automation
+###  Testing & Automation
 
 - **9 Automated Test Scenarios**: Connectivity, latency, packet loss, bandwidth, QoS, tunnels, failover
 - **5 Failover Test Cases**: Latency degradation, interface shutdown, packet loss, tunnel resilience, complete site isolation
@@ -92,7 +92,7 @@ Traditional multi-site networks suffer from:
 ---
 
 
-## 🏗️ Architecture
+##  Architecture
 
 ### High-Level Design
 
@@ -262,7 +262,7 @@ You should see:
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Quick Start (3 Steps)
 
@@ -283,7 +283,7 @@ Wait for:
 ✓ Switch connected: DPID=...
 ✓ Switch connected: DPID=...
 ✓ Switch connected: DPID=...
-🔄 Enhanced monitoring thread started
+ Enhanced monitoring thread started
 ```
 
 #### 2. Run Tests (Terminal 2)
@@ -366,7 +366,7 @@ sudo ip netns exec site1 ip link set veth-s1 up
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Automated Test Suite
 
@@ -436,7 +436,7 @@ All test results are saved to `/tmp/sdwan_test_results/`:
 
 ---
 
-## 📊 Monitoring & Metrics
+##  Monitoring & Metrics
 
 ### Real-Time Monitoring
 
@@ -444,7 +444,7 @@ The controller provides continuous monitoring with updates every 10 seconds:
 
 ```
 ======================================================================
-📊 MONITORING CYCLE #1 - 04:17:36
+ MONITORING CYCLE #1 - 04:17:36
 ======================================================================
 
 --- Path Metrics & Quality ---
@@ -467,11 +467,11 @@ Connected Switches: 3
 | Symbol | Meaning | Threshold |
 |--------|---------|-----------|
 | ✓ OK | Path healthy | Latency <50ms, Loss <5% |
-| ⚠️ HIGH | Degraded performance | Latency 50-100ms |
-| 🔴 CRITICAL | Severe degradation | Latency >100ms |
-| ❌ DOWN | Path unavailable | Loss 100% |
-| ⭐ | High priority traffic | Priority ≥100 |
-| 🚨 | Anomaly detected | Spike >2x average |
+|  HIGH | Degraded performance | Latency 50-100ms |
+|  CRITICAL | Severe degradation | Latency >100ms |
+|  DOWN | Path unavailable | Loss 100% |
+|  | High priority traffic | Priority ≥100 |
+|  | Anomaly detected | Spike >2x average |
 
 ### Collected Metrics
 
@@ -515,7 +515,7 @@ Connected Switches: 3
 
 ---
 
-## 🎓 How It Works
+##  How It Works
 
 ### Path Selection Algorithm
 
@@ -629,7 +629,7 @@ CONTROLLER="tcp:127.0.0.1:6633"
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -780,15 +780,11 @@ This project implements concepts from:
 
 <div align="center">
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-
-**⭐ Star this repo if you found it helpful!**
-
-**🔀 Fork it to build your own SD-WAN!**
 
 Made with ❤️ and ☕ by Manar
 
